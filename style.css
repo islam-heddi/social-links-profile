@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'social link';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'social link';
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    display: inline-block;
+    padding: 20px;
+    margin: 14px;
+    text-align: center;
+    border-radius: 19px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40%;
+    transform: translate(-50%,-50%);
+}
+
+img{
+    height: 100px;
+    border-radius: 100%;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.text1{
+    color: hsl(75, 94%, 57%);
+}
+
+.text2{
+    color: hsl(0, 0%, 75%);
+}
+
+.shape{
+    padding: 15px;
+    margin: 15px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 15px;
+}
+
+.shape:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen  and (max-width: 537px) {
+    main{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    main{
+        width: 79%;
+        margin: 5px;
+    }
+}
